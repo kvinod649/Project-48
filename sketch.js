@@ -9,7 +9,7 @@ var flowerGroup, ghostGroup, ghostGroup2, ghostGroup3;
 var flowerImg, ghostImg, ghost2Img, ghost3Img;
 var flowerCount = 0;
 var deathCount = 0;
-var spookySound;
+//var spookySound;
 
 function preload(){
   quinceImg = loadAnimation("Run_1.png","Run_2.png");
@@ -22,7 +22,7 @@ function preload(){
   ghost3Img = loadImage("Grave_Ghost3.png");
 
   //spookySound = loadSound("yt1s.com - Horror Music No Copyright (1).mp3");
-  spookySound = loadSound("spooky.wav")
+  //spookySound = loadSound("spooky.wav")
 }
 
 function setup() {
@@ -40,7 +40,7 @@ function setup() {
    quince.addAnimation("StopQuince", stopQuinceImg)
    quince.scale = 0.5;
   
-   spookySound.loop();
+   //spookySound.loop();
 
   flowerGroup = new Group();
   ghostGroup = new Group();
